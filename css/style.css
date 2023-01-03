@@ -159,4 +159,7 @@ body {
     .todo_box__btn.add,.todo_box__btn.done,.todo_box__btn.delete {
         font-size: 15px;
     }
+    
+    .todo_box__header-text {
+        font-size: 15px;
 }
