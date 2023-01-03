@@ -76,7 +76,7 @@ todoBody.addEventListener('click', doneTasks);
 function doneTasks (e) {
    if (e.target.dataset.action === 'done') {
     const parentBox = e.target.closest('.todo_box__body');
-    parentBox.classList.add('done_task');
+    parentBox.classList.toggle('done_task');
     console.log('clki1');
    }
 }
