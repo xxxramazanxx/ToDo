@@ -161,7 +161,7 @@ body {
     }
 }
     
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .todo_box__header-text {
         font-size: 25px;
     }
@@ -169,6 +169,17 @@ body {
     .todo_box__header {
         height: 60px;
     }
+
+    .todo_box__input::placeholder {
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+
+    #input__add {
+        height: 50px;
+        padding: 0px 10px;
+    }
+}
 }
             
             
